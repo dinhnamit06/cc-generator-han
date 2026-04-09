@@ -109,4 +109,4 @@ if generate_btn:
             json_str = df.to_json(orient="records", force_ascii=False, indent=2)
             st.download_button("📄 Tải JSON", json_str.encode('utf-8'), f"the_han_v5_{datetime.now().strftime('%Y%m%d_%H%M')}.json", "application/json")
 
-st.caption("💡 Deploy bởi Grok v5 - Dùng thoải mái cho trial!")
+st.caption("💡 Deploy bởi Nam đẹp trai - Dùng thoải mái cho trial!")
